@@ -1,0 +1,180 @@
+/* small mobile */
+/* big mobile */
+@media screen and (min-width: 768px) {
+  header > section > div:nth-of-type(1) {
+    width: 15%;
+  }
+  header > section .menu {
+    width: 70%;
+    position: static;
+    background-color: transparent;
+    height: auto;
+  }
+  header > section .menu > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  header > section .menu > ul > li {
+    position: relative;
+    margin: 0 10px;
+    transition: 0.5s;
+    border: none;
+    padding: 0;
+  }
+  header > section .menu > ul > li:hover {
+    background-color: transparent;
+  }
+  header > section .menu > ul > li::Before {
+    content: "";
+    height: 2px;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    background-color: #f28123;
+    transition: 0.5s;
+  }
+  header > section .menu > ul > li:hover a {
+    color: white;
+  }
+  header > section .menu > ul > li:hover::before {
+    left: 0;
+    width: 100%;
+  }
+  .whyChooseUS > article > ul:nth-of-type(1) > li {
+    transform: translate(100px);
+  }
+  .whyChooseUS > article > ul:nth-of-type(2) > li {
+    transform: translate(-100px);
+  }
+  .area1 {
+    top: 7%;
+    right: 29%;
+  }
+  .area2 {
+    top: 23%;
+    right: 43%;
+  }
+  .area3 {
+    top: 22%;
+    right: 32%;
+  }
+  .area4 {
+    top: 27%;
+    right: 15%;
+  }
+  .area5 {
+    top: 28%;
+    left: 46%;
+  }
+  .area6 {
+    top: 39%;
+    right: 36%;
+  }
+  .area7 {
+    top: 39%;
+    right: 29%;
+  }
+  .area8 {
+    top: 39%;
+    right: 22%;
+  }
+  .area9 {
+    top: 52%;
+    right: 50%;
+  }
+  .area10 {
+    top: 53%;
+    right: 42%;
+  }
+  .area11 {
+    top: 53%;
+    right: 37%;
+  }
+  .area12 {
+    top: 53%;
+    right: 31%;
+  }
+  .area13 {
+    top: 47%;
+    right: 23%;
+  }
+  .area14 {
+    top: 56%;
+    right: 23%;
+  }
+  .area15 {
+    right: 24%;
+    bottom: 27%;
+  }
+  .area16 {
+    bottom: 27%;
+    right: 34%;
+  }
+  .area17 {
+    bottom: 32%;
+    right: 43%;
+  }
+  .area18 {
+    bottom: 31%;
+    right: 53%;
+  }
+  .area19 {
+    bottom: 22%;
+    right: 41%;
+  }
+  .area20 {
+    bottom: 11%;
+    right: 30%;
+  }
+  .area21 {
+    top: 41%;
+    left: 24%;
+  }
+  .area22 {
+    top: 27%;
+    left: 24%;
+  }
+  .banner > div > div > h1 {
+    font-size: 4rem;
+  }
+  .banner > div > div > h2 {
+    font-size: 3rem;
+  }
+  .banner > div > div > span > a {
+    font-size: 1.2rem;
+  }
+  .banner > div > div > span > a:hover {
+    background-color: white;
+    color: black;
+  }
+  .whyChooseUS > article > ul::before {
+    display: block !important;
+  }
+  .whyChooseUS > article > ul > li {
+    margin: 70px 0;
+  }
+  .whyChooseUS > article > ul > li::before {
+    display: block !important;
+  }
+  .increament div > div > p:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product > section > article:nth-of-type(2) {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2117647059);
+  }
+  .product > section > article:nth-of-type(1) {
+    transform: translateY(50px);
+  }
+  .product > section > article:nth-of-type(3) {
+    transform: translateY(50px);
+  }
+}
+/* big display *//*# sourceMappingURL=scope.css.map */

@@ -1,0 +1,47 @@
+      >ul:nth-of-type(1) {
+            &::Before {
+                content: '';
+                width: 5px;
+                height: 100%;
+                background-color: white;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.185);
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 5px;
+                display: none;
+
+            }
+
+            >li {
+                &::before {
+                    left: -40px !important;
+                }
+            }
+            >li:nth-child(even){
+                transform: translate(-100px);
+            }
+
+        }
+
+        >ul:nth-of-type(2) {
+            margin-right: 20px;
+
+            >li {
+                transform: translate(-100px);
+
+                &::Before {
+                    right: -32px;
+                }
+
+            }
+            >li:nth-child(odd){
+                transform: translate(100px);
+            }
+
+
+        }
+
+
+    }
+}
